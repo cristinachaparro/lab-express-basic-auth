@@ -1,8 +1,77 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 a {
   color: #00B7FF;
+}
+
+nav {
+  background-color: lightcoral;
+  margin: 0;
+  padding: 50px;
+}
+
+nav a {
+  padding: 16px;
+  color: white;
+}
+
+.container {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 5em;
+  color: darkorange;
+}
+
+.form-container {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 8px;
+  
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+#profile {
+  padding: 50px;
+  text-align: center;
+}
+
+#profile a {
+  background-color: cadetblue;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  padding-bottom: 18px;
 }
