@@ -99,7 +99,7 @@ router.post("/login", async (req, res, next) => {
     //crear sesión
     req.session.activeUser = foundUser;
     req.session.save(() => {
-      res.redirect("/profile");
+      res.redirect("/secret/profile");
     });
   } catch (error) {
     next(error);

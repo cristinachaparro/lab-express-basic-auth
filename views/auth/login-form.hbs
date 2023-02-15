@@ -7,6 +7,10 @@
       <br>
     <label for="password">Password</label>
     <input type="password" name="password">
+    {{#if this.errorMessage}}
+        <p>{{this.errorMessage}}</p>
+    {{/if}}
+    <br>
     <button>Log in</button>
   </form>
 </div>

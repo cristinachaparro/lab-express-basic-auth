@@ -50,7 +50,7 @@ module.exports = (app) => {
       cookie: { maxAge: 1000 * 60 * 60 * 24 * 7 }, // 7 días
       store: MongoStore.create({
         mongoUrl:
-          process.env.MONGODB_URI || "mongodb://localhost:27017/basic-auth",
+          process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/basic-auth",
         ttl: 60 * 60 * 24 * 7, // 7 días
       }),
     })
